@@ -87,6 +87,9 @@
     <activity
         android:name=".markerexamples.draggablemarkerscollectionwithpolygon.DraggableMarkersCollectionWithPolygonActivity"
         android:exported="false"/>
+    <activity
+        android:name=".PaddedMapActivity"
+        android:exported="false"/>
 
     <!-- Used by createComponentActivity() for unit testing -->
     <activity android:name="androidx.activity.ComponentActivity" />

@@ -199,6 +199,12 @@ class MainActivity : ComponentActivity() {
                             }) {
                             Text(getString(R.string.draggable_markers_collection_with_polygon))
                         }
+                        Button(
+                            onClick = {
+                                context.startActivity(Intent(context, PaddedMapActivity::class.java))
+                            }) {
+                            Text("Map with content padding")
+                        }
                     }
                 }
             }
